@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EndPointsTestUW" annotations="1.5">
+    <test name="Unit Tests">
+        <classes>
+            <class name="RESTAPITestCases.VerifyProperResponse"/>
+            <class name="RESTAPITestCases.VerifyStatusOK"/>
+        </classes>
+    </test>
+</suite>
